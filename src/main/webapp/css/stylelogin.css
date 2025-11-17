@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@charset "UTF-8";
+body {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(to bottom right, #fefbd8, #f7d794);
+        }
+
+        .header {
+            background-color: #ff9f43;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Comic Sans MS', cursive;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .quote {
+            font-size: 16px;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .login-container {
+            max-width: 400px;
+            margin: 60px auto;
+            background-color: #fffaf0;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h2 {
+            color: #e07a5f;
+            margin-bottom: 20px;
+            font-family: 'Comic Sans MS', cursive;
+        }
+
+        .form-group {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #f4a261;
+            border-radius: 8px;
+            background-color: #fffdf6;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #2a9d8f;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #21867a;
+        }
+
+        .footer {
+            background-color: #ff9f43;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 14px;
+        }
+
+        .footer b {
+            display: block;
+            margin-top: 5px;
+        }
+
+        .child-icon {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 480px) {
+            .login-container {
+                margin: 30px 15px;
+                padding: 20px;
+            }
+
+            .footer, .header {
+                font-size: 16px;
+            }
+        }

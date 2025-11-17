@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	font-family: "Segoe UI", sans-serif;
+	background-color: #f7f7f7;
+}
+
+.navbar {
+	background-color: #2a9d8f;
+	padding: 15px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+.nav-left {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.nav-right form {
+	display: inline;
+}
+
+.nav-links {
+	background-color: #264653;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
+	padding: 12px 20px;
+	margin: 0 5px;
+	border-radius: 8px;
+	transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+	background-color: #f4a261;
+	color: #000;
+}
+
+.welcome-msg {
+	padding: 30px 20px;
+	text-align: center;
+	font-size: 24px;
+	color: #333;
+}
+
+.footer {
+	background-color: #e76f51;
+	color: white;
+	text-align: center;
+	padding: 20px 10px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	font-size: 14px;
+}
+
+input[type="submit"] {
+	background-color: #e63946;
+	color: white;
+	padding: 8px 14px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 14px;
+	transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: #c53030;
+}
+
+@media ( max-width : 600px) {
+	.nav-links {
+		flex-direction: column;
+	}
+	.nav-links a {
+		margin: 5px 0;
+	}
+}
+
+.dashboard-image {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.dashboard-image img {
+	max-width: 80%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

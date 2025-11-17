@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Segoe UI', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f9f8;
+}
+
+.header {
+	background-color: #2a9d8f;
+	color: white;
+	padding: 15px 20px;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 30px;
+	color: #264653;
+}
+
+.form-container {
+	max-width: 600px;
+	margin: 30px auto;
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 6px;
+	color: #333;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="date"], input[type="number"], textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 18px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-sizing: border-box;
+}
+
+textarea {
+	resize: vertical;
+}
+
+input[type="submit"] {
+	background-color: #e76f51;
+	color: white;
+	padding: 12px 25px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 16px;
+	display: block;
+	margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+	background-color: #d35400;
+}
+
+.footer {
+	background-color: #264653;
+	color: white;
+	text-align: center;
+	padding: 15px 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 14px;
+}
+
+.content {
+	padding-bottom: 80px; /* To Prevent footer overlapping the  Table */
+}
+
+@media ( max-width : 600px) {
+	.form-container {
+		margin: 20px;
+		padding: 20px;
+	}
+	input[type="submit"] {
+		width: 100%;
+	}
+}
